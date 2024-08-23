@@ -1,0 +1,116 @@
+@media screen and (max-width: 576px) {
+
+    section>.container {
+        display: contents;
+        width: auto;
+        margin: 0 20px;
+        padding: 0;
+    }
+
+    #text-banner {
+        width: 100%;
+    }
+
+    #text-banner h1 {
+        font-weight: 500;
+        font-size: 40px;
+    }
+
+
+    #text-nav {
+        display: none;
+    }
+
+    #nav-info {
+        display: block;
+        justify-content: center;
+        padding: 20px;
+        line-height: 2.0;
+    }
+
+    #nav-bar {
+        display: block;
+    }
+
+    #nav-bar a {
+        float: none;
+    }
+
+    #img-banner {
+        position: relative;
+        width: 100%;
+        filter: brightness(50%);
+        padding: 0px;
+        /* height: 100%; */
+        object-fit: none;
+    }
+
+    #container-about {
+        display: contents;
+    }
+
+    .info-section {
+        display: contents;
+    }
+
+    .info-list {
+        display: block;
+        padding: 0;
+        margin: auto;
+    }
+
+    .grid-item-job {
+        pointer-events: all;
+        padding: 30px;
+        margin: 20px 1px;
+    }
+
+    .certificates {
+        display: contents;
+    }
+
+    .certificate-item {
+        display: block;
+        border-bottom: 3px solid orange;
+        margin: 40px 10px;
+    }
+
+    /* Đường gạch ngang giữa các hàng */
+    .divider {
+        grid-column: 1 / -1;
+        height: 0;
+        background-color: orange;
+        margin: 20px 0;
+    }
+
+    .odd {
+        border-right: none;
+    }
+
+    .img-certificates {
+        width: 100%;
+        height: auto;
+        padding-right: 0px;
+    }
+
+    .content-certificate {
+        margin-left: 0px;
+    }
+
+    .project {
+        display: contents;
+    }
+
+    .item-project {
+        border: solid 1px rgba(217, 217, 217);
+        margin-bottom: 40px;
+    }
+
+    .content-certificate ul {
+        padding-left: 0px;
+    }
+
+    .grid-item-job:hover .toggle-btn {
+        display: inline-block;
+    }
+}
